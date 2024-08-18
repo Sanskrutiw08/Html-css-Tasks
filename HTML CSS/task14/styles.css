@@ -1,0 +1,41 @@
+.custom-label{
+
+    & p{
+        position: relative;
+    }
+
+    & span{
+       position: absolute;
+       right:0%; 
+    }
+}
+
+/* :root{
+    font-size: 1.3rem;
+} */
+
+.custom-font-size{
+    font-size: 0.8rem;
+}
+
+/* .line-height{
+    line-height: 1;
+} */
+
+thead{
+
+    & tr,th {
+        border: 1px solid black;
+        text-align: center;
+        font-weight: 400;
+    }
+
+}
+
+/* .container{
+    max-width: 1320px;
+} */
+
+.table-bottom-margin{
+    margin-bottom: 40%;
+}

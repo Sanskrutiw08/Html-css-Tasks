@@ -1,0 +1,152 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-size: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+#wrapper{
+    width: 98%;
+    margin: 20px;
+    background-color: #cecece;
+    padding: 25px;
+    border-radius: 10px;
+}
+.container{
+    margin: 0% 2%;
+    background-color: white;
+
+    & p{
+        text-align: end;
+        background-color: #cecece;
+        border-bottom: 3px solid #7e9c1a;
+    }
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.box{
+    & th{
+        position: relative;
+        width: 25em;
+    }
+
+    & label{
+        position: absolute;
+        top: 0%;
+        right: 0%;
+        margin: 0px 8px;
+    }
+
+    & select{
+        margin: 8px 8px 0px 8px;
+        padding: 0px 3px;
+        width: 90%;
+    }
+
+    & input{
+        margin: 0px 8px;
+        padding: 0px 4px;
+        border-radius: 4px;
+        border: none;
+        border-top: 2px solid #a4a4a4;
+        box-shadow: 1px 1px 0.8px 0px #4a4a4ab1, -1px 0px 0.8px 0px #4a4a4ab1;
+    }
+
+    & form{
+        line-height: 2;
+    }
+
+    border-bottom: 1px dotted black;
+
+    & th{
+        border-right: 2px solid rgb(130, 130, 130);
+    }
+
+    & #heading1, #heading2, #heading3, #heading4{
+        position: static;
+        text-align: end;
+        background-color: #7e9c1a;
+        color: white;
+        padding: 0px 8px;
+    }
+
+    & #heading5{
+        position: static;
+        text-align: start;
+        padding: 0px 8px;
+        border: none;
+        font-weight: 600;
+    }
+
+    #heading6{
+        padding: 40px 8px;
+    }
+
+    #male{
+        position: static;
+        margin: 0%;
+    }
+    
+    #female{
+        position: static;
+        margin: 0%;
+    }
+    
+}
+
+#bottom-row{
+    background-color: #cecece;
+}
+
+#button-container{
+    position: relative;
+}
+
+input[type="submit"]{
+    position: absolute;
+    top: 14px;
+    left: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100px;
+    border: none;
+    letter-spacing: 1px;
+    color: white;
+    background-color: darkorange;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#bottom-box{
+    border-bottom: none;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    box-shadow: none;
+}
+
+.astrik{
+    color: red;
+    padding: 0px 4px;
+    font-size: 20px;
+}
+
+input[type="radio"]{
+    box-shadow: none;
+    width: 18px;
+    height: 18px;
+}
+
+#experience{
+    width: auto;
+}

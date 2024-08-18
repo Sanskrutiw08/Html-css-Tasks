@@ -1,0 +1,59 @@
+<!doctype html>
+	<html>
+	<head>
+	<title>links</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale 1.0"/>
+	<style>
+	 .a1{
+	 color:hotpink;
+	 font-size:30px;
+	 }
+	 a.a2:link{
+	 color:blue;
+	 text-decoration:none;
+	 background-color:yellow;
+	 }
+	 a.a2:visted{
+	 color:purple;
+	 text-decoration:none;
+	 background-color:cyan;
+	 }
+	 a.a2:hover{
+	 color:red;
+	 text-decoration:underline;
+	 background-color:pink;
+	 }
+	 a.a2:active{ <!--When setting the style for several link states, there are some order rules:
+					a:hover MUST come after a:link and a:visited
+					a:active MUST come after a:hover-->
+	 color:green;
+	 text-decoration:underline;
+	 background-color:white;
+	 }
+	 /*link button*/
+	 a.a3:link,a.a3:visited{
+	 display:inline-block;
+	 background-color:red;
+	 color:white;
+	 text-decoration:none;
+	 padding:15px 20px;
+	 font-weight:bold;
+	 }
+	 a.a3:hover,a.a3:visited
+	 {
+	  background-color:gray;
+	  text-decoration:none;
+	  font-weight:bold;
+	 }
+	 
+	 
+	</style>
+	</head>
+	<body>
+	  <a class ="a1" href="https://www.w3schools.com/css/tryit.asp?filename=trycss_link_all" target="_blank">text link</a><br>
+	  <a class ="a2" href="https://www.google.com" target="_blank">text link2</a><br>
+	  <a class="a3" href="http://www.gmail.com">this is link</a>
+	  
+	</body>
+	</html>

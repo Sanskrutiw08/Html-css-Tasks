@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>padding</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        div.style{
+        border:2px solid #8E44AD;
+        background-color: #E8DAEF;
+        color:#5B2C6F;
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        margin: auto;
+         
+        }
+        h2{
+            width: 600px;
+            padding: 5px;
+            background-color: powderblue;
+        }
+        h3{
+            box-sizing: border-box;
+            background-color: cyan;
+            color:white;
+            padding:30px;
+            background-image: url("b.jpg"); 
+            text-align: left;
+            width: auto;
+        }
+        </style>
+    </head>
+    <body>
+        <div>padding</div>
+        <div class="style">
+            <h1>this is heading</h1>
+            The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+With CSS, you have full control over the padding. There are properties for setting the padding for each side of an element (top, right, bottom, and left).
+        </div>
+        <div>
+            <h2>this is heading</h2>
+            The CSS width property specifies the width of the element's content area. The content area is the portion inside the padding, border, and margin of an element (the box model).
+
+So, if an element has a specified width, the padding added to that element will be added to the total width of the element. This is often an undesirable result.
+
+In the following example, the div element is given a width of 300px. However, the actual rendered width of the  element will be 350px (300px + 25px of left padding + 25px of right padding):
+        </div>
+        <h3>
+            this is box-sizing:border-box property The width of this div remains at 300px, in spite of the 50px of total left and right padding, because of the box-sizing: border-box property.
+        </h3>
+
+    </body>
+</html>
